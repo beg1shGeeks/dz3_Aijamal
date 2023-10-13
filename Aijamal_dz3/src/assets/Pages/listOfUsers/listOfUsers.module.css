@@ -1,0 +1,53 @@
+.container {
+  width: 70%;
+  min-height: 90vh;
+  height: 100%;
+  border: 1px solid silver;
+  margin: 0px auto 40px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding: 40px 20px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  background: linear-gradient(328deg, #012978, #547898, #012978);
+}
+.userContainerWraper {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  justify-content: center;
+}
+.userContainer {
+  width: max-content;
+  height: max-content;
+  padding: 10px 15px;
+  display: flex;
+  gap: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(141, 139, 139);
+}
+.userContainer img {
+  width: 150px;
+  height: 90px;
+}
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.userContainer button {
+  padding: 5px 10px;
+  background: #a5a1ab87;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.userContainer button:hover {
+  background: #8273996e;
+}
